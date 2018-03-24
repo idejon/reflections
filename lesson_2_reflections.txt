@@ -2,4 +2,7 @@ What happens when you initialize a repository? Why do you need to do it?
 .git folder is created.  framework for tracking changes is initialized
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
-It queues files for commit.  It allows files to be queued as they are worked on and added in a single committ.
+It queues files for commit.  It allows files to be queued as they are worked on and added in a single committ
+
+How can you use the staging area to make sure you have one commit per logical change?
+You can add all related changes to the staging area and then commit together.
